@@ -1,0 +1,12 @@
+a=[]
+a.append('dog')
+a.append('cat')
+a.append('mouse')
+a.append([1,10,100,1000])
+print(a)
+print(a[0])
+print(a[3])
+print(max(a[3]))
+print(min(a[3]))
+print(a[3][3])
+print(a[3][0])
