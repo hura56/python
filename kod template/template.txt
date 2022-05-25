@@ -1,0 +1,56 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.integrate import quad
+
+# 1. Wczytywanie z pliku np. csv do kodu i np. trzeba będzie usunąć niewłaściwe dane po wczytaniu zawartości pliku
+# 2. Narysować wykres : czyli te wszystkie funkcje label, grubość linii, kolor linii, czy ma być to wykres słupkowy itp.
+# 3. Użyć danych żeby dopasować je do jakiegoś wykresu
+# 4. Tutaj coś w stylu "Przecałkować zinterpolowaną funkcję", pewnie cos ala użycie którejś z funkcji w Numpy i Scipy
+
+# TO JEST DOBRY FOLDER OD MARCELA Z RZECZAMI CO NAM KYCIA DAWAL
+# Od marcela: https://drive.google.com/drive/folders/1RUDblv_iNbbYvKzD3FTnpEdIWV9x7jCQ
+# jeszcze raz folder kyci:
+
+# ZADANIE 1
+# df = pd.read_csv('file.csv')
+# df.fillna(0)
+# https://stackoverflow.com/questions/47286547/is-there-a-way-in-pd-read-csv-to-replace-nan-value-with-other-character
+
+
+# ZADANIE 2
+# Zwykly plot
+# x = np.linspace(0, 2, 50)
+# plt.plot(x, x, label='linear', linewidth=3.5)
+
+# bar
+# fig, ax = plt.subplots()
+# values = np.random.randint(10, size=5)
+# x_pos = np.arange(len(values))
+# ax.bar(x_pos, values)
+
+# plt.xlabel('x label')
+# plt.ylabel('y label')
+#
+# plt.title('Wykres')
+#
+# plt.legend()
+#
+# plt.show()
+
+# Zadanie 3
+# tu moze byc wszystko co tu jest wiec nie wiem co tu wpisac ale nie ma tego duzo imo jak sobie poczytalem ogolnie
+
+# ZADANIE 4
+# np.inf - nieskonczonosc
+# INTERPOLACJA JEST W TYM LINKU \/
+# https://stackoverflow.com/questions/44811581/scipy-how-to-integrate-a-linearly-interpolated-function
+#
+# def f(x, a, b):
+#     return a*x**2 + b
+#
+#
+# a = 2
+# b = 1
+# output = quad(f, 0, 1, args=(a, b)) # 0 i 1 to sa oznaczenia calki kolejno dolna i gorna
+# print(output)

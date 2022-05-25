@@ -1,0 +1,8 @@
+https://docs.scipy.org/doc/scipy/tutorial/integrate.html - Strona o calkowaniu z scipy
+
+https://stackoverflow.com/questions/44811581/scipy-how-to-integrate-a-linearly-interpolated-function - interpolacja funkcji
+
+https://stackoverflow.com/questions/47286547/is-there-a-way-in-pd-read-csv-to-replace-nan-value-with-other-character
+wymiana null
+
+https://drive.google.com/drive/folders/1RUDblv_iNbbYvKzD3FTnpEdIWV9x7jCQ - Google drive od MH
