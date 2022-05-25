@@ -6,3 +6,5 @@ https://stackoverflow.com/questions/47286547/is-there-a-way-in-pd-read-csv-to-re
 wymiana null
 
 https://drive.google.com/drive/folders/1RUDblv_iNbbYvKzD3FTnpEdIWV9x7jCQ - Google drive od MH
+
+https://github.com/wcaleniepodejrzanerepo/zbior_krzaczkowski?fbclid=IwAR0rTOorGgVOZlsJ7uYwp6BAjvDQ7hqdCaZLRmF80OFXoXMnG98chHGis0c  -  GITHUB ZADANIA Z PS
